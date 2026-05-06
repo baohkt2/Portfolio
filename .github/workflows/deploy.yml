@@ -36,7 +36,7 @@ jobs:
     name: Deploy to server
     runs-on: ubuntu-22.04
     needs: build_and_push
-    environment: production
+    environment: Production
 
     steps:
       - name: Checkout code
